@@ -3,11 +3,12 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
+- NOM : Couturier
+- PRÉNOM : Margaux
+- GROUPE : A2
+- URL du site : https://fascinating-granita-5f7f51.netlify.app
 - URL FIGMA :
+
 
 ## Sujet
 
