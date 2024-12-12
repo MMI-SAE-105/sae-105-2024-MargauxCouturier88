@@ -8,6 +8,11 @@
 
 /* Base */
 @import "/src/css/base/main.css";
+@import "/src/css/base/billetterie.css";
+@import "/src/css/base/film.css";
+@import "/src/css/base/invite.css";
+@import "/src/css/base/programme.css";
+@import "/src/css/base/restauration.css";
 /* Layout */
 
 @import "/src/css/layout/footer.css";

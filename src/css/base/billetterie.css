@@ -1,0 +1,79 @@
+.ticketing {
+    background-color: #F4DEC5;
+}
+
+.ticketing__title {
+    font-family: source serif pro;
+    size: 32px;
+    margin: 20px;
+}
+.ticketing__subtitle {
+    font-family: mulish;
+    size: 22px;
+    font-style: bold;
+    margin: 20px;
+}
+
+.ticketing__description {
+    font-family: STIX Two Text;
+    size: 18px;
+    margin: 20px;
+}
+
+.ticketing__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.program__child-adulte {
+    background-color: #F4DEC5;
+}
+
+.program__title {
+    font-family: STIX Two Text;
+    size: 18px;
+    margin: 20px;
+}
+
+.program__image {
+    width: 350px; 
+    height: 250px; 
+    object-fit: cover;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.program__date {
+    font-family: mulish;
+    size: 13px;
+    margin: 20px;
+    text-transform: uppercase;
+    
+}
+
+.program__price {
+    font-family: mulish;
+    size: 13px;
+    margin: 20px;
+}
+
+.program__button {
+    background-color: #F4DEC5; 
+    color: #ff6600;
+    border: 3px solid #ff6600; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease; 
+}
+
+.program__button:hover {
+  background-color: #ff6600; 
+  color: #ffffff; 
+}

@@ -1,0 +1,36 @@
+.restauration {
+    background-color: #F4DEC5;
+}
+.restauration__title {
+    font-family: source serif pro;
+    size: 32px;
+    margin: 20px;
+}
+ .restauration__image {
+    width: 200px; 
+    height: 175px; 
+    object-fit: cover;
+    margin: 20px;
+    display: flex;
+ }
+
+.restauration__subtitle {
+    font-family: mulish;
+    size: 22px;
+    font-style: bold;
+    margin: 20px;
+}
+
+.restauration__description {
+    font-family: STIX Two Text;
+    size: 18px;
+    margin: 20px;
+}
+
+.restauration__icon {
+    width: 200px; 
+    height: 175px; 
+    object-fit: cover;
+    margin: 20px;
+    display: flex;
+}
