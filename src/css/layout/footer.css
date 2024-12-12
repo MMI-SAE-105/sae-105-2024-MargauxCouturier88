@@ -36,12 +36,11 @@
   
   .footer__social {
     display: flex; 
-    align-self: flex-end;  
     justify-content: flex-end;
     right: 0;
     position: absolute;
     gap: 5px; 
-    
+    align-self: flex-end;
   }
   
   .footer__social img {

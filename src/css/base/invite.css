@@ -1,0 +1,28 @@
+.director {
+    background-color: #F4DEC5;
+}
+.director__name{
+    font-family: source serif pro;
+    size: 32px;
+    margin: 20px;
+}
+.director__image {
+    width: 250px; 
+    height: 350px; 
+    object-fit: cover;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.director__subtitle {
+    font-family: mulish;
+    size: 22px;
+    margin: 20px;
+    font-style: bold;
+}
+.director__bio {
+    font-family: STIX Two Text;
+    size: 18px;
+    margin: 20px;
+
+}
