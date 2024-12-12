@@ -36,19 +36,27 @@
           
           <h1>Festiv'Halloween</h1>
       </header>
-    <h2>Film pour enfants</h2>
-    <img src="/assets/img/Film/filmcasper.webp" alt="Film Casper">
-    <h5>Casper </h5>
-    <a href="https://www.youtube.com/watch?v=jVCe_CtlKwc">
-        <img src="/assets/icons/btnBandeAnnonce.svg" alt="Bouton bande annonce">
-    </a>
-    <p>De 17h20 à 18h56 </p>
-    <p>Réalisateur : Brad Silberling </p>
-    <p>Durée : 1h36 </p>
-    <p>à partir de 6 ans </p> 
-    <h3>Biographie du réalisateur</h3>
-    <img src="/assets/img/Réalisateur/Brad Silberling.jpeg" alt="Photo Brad Silberling">
-    <p>Brad Silberling est un réalisateur, scénariste et producteur américain né le 8 septembre 1963 à Washington, 
+
+    <section class="film">
+      <h2 class="film__title">Film pour enfants</h2>
+      <img class="film__image" src="/assets/img/Film/filmcasper.webp" alt="Film Casper">
+      <h5 class="film__subtitle">Casper</h5>
+      <a class="film__trailer-link" href="https://www.youtube.com/watch?v=jVCe_CtlKwc">
+          <img class="film__trailer-button" src="/assets/icons/btnBandeAnnonce.svg" alt="Bouton bande annonce">
+      </a>
+  </section>
+  
+  <section class="film-details">
+      <p class="film-details__time">De 17h20 à 18h56</p>
+      <p class="film-details__director">Réalisateur : Brad Silberling</p>
+      <p class="film-details__duration">Durée : 1h36 </p>
+      <p class="film-details__age">à partir de 6 ans </p> 
+  </section>
+  
+  <section class="directors">
+      <h3 class="directors__title">Biographie du réalisateur</h3>
+      <img class="directors__image" src="/assets/img/Réalisateur/Brad Silberling.jpeg" alt="Photo Brad Silberling">
+      <p class="directors__bio">Brad Silberling est un réalisateur, scénariste et producteur américain né le 8 septembre 1963 à Washington, 
         D.C. Il est connu pour ses films mêlant sensibilité et imagination, souvent ancrés dans des récits émotionnels. 
         Silberling s'est d'abord illustré à la télévision en réalisant des épisodes de séries populaires comme Doogie 
         Howser, M.D. et NYPD Blue.
@@ -60,21 +68,29 @@
         10 Items or Less (2006), où il explore les liens humains à travers des histoires intimistes. Marié à l'actrice Amy 
         Brenneman, il est aussi impliqué dans des projets qui mettent en avant des thèmes universels comme la résilience et 
         l'espoir.</p>
-    <h3>Résumé du film</h3>
-    <p>Casper (1995) raconte l'histoire d'une jeune fille, Kat, et de son père, le Dr Harvey, qui emménagent dans un manoir 
+  </section>
+  
+  <section class="summary">
+      <h3 class="summary__title">Résumé du film</h3>
+      <img class="summary__image" src="/assets/img/Film/casper.png" alt="Image Casper">
+      <p class="summary__text">Casper (1995) raconte l'histoire d'une jeune fille, Kat, et de son père, le Dr Harvey, qui emménagent dans un manoir 
         hanté pour exorciser ses fantômes. Ils y rencontrent Casper, un gentil fantôme solitaire, et ses oncles farceurs. 
         Alors que Casper et Kat nouent une amitié touchante, le duo doit faire face à des intrus avides de trouver un trésor 
         caché dans la maison. Le film mêle humour, émotion et fantastique, explorant des thèmes comme l'amitié et la perte.</p>
-    <img src="/assets/img/Film/casper.png" alt="Image Casper">
+  </section>
 
-     <footer>
-            <img src="/assets/icons/logocitrouille1.svg" alt="Logo Festiv'Halloween">
-            <p>Mentions légales</p>
-            <p>Politique de confidentialité</p>
-            <img src="/assets/img/Footer/3ac5e1e36b01036458b8e3537b684411.jpg" alt="Image chaudron de sorcière">
-            <img src="/assets/icons/logo-tiktok.svg" alt="Logo TikTok">
-            <img src="/assets/icons/logo-instagram.svg" alt="Logo Instagram">
-            <img src="/assets/icons/logo-facebook.svg" alt="Logo Facebook">
-    </footer>
+   <footer class="footer">
+      <img class="footer__logo" src="/assets/icons/logocitrouille1.svg" alt="Logo Festiv'Halloween">
+      <div class="footer__links">
+          <p>Mentions légales</p>
+          <p>Politique de confidentialité</p>
+      </div>
+      <img class="footer__image" src="/assets/img/Footer/3ac5e1e36b01036458b8e3537b684411.jpg" alt="Image chaudron de sorcière">
+      <div class="footer__social">
+          <img src="/assets/icons/logo-tiktok.svg" alt="Logo TikTok">
+          <img src="/assets/icons/logo-instagram.svg" alt="Logo Instagram">
+          <img src="/assets/icons/logo-facebook.svg" alt="Logo Facebook">
+      </div>
+  </footer>
 </body>
 </html>

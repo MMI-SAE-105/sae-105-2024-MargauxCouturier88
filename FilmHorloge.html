@@ -36,19 +36,27 @@
           
           <h1>Festiv'Halloween</h1>
       </header>
-    <h2>Film pour enfants</h2>
-    <img src="/assets/img/Film/filmhorloge.jpeg" alt="Film La Prophétie de l’horloge">
-    <h5>La Prophétie de l’horloge</h5>
-    <a href="https://www.youtube.com/watch?v=woxCesUcyng">
-        <img src="/assets/icons/btnBandeAnnonce.svg" alt="Bouton bande annonce">
-    </a>
-    <p>De 23h30 à 1h10 </p>
-    <p>Réalisateur : Eli Roth </p>
-    <p>Durée : 1h40 </p>
-    <p>à partir de 11 ans</p> 
-    <h3>Biographie du réalisateur</h3>
-    <img src="/assets/img/Réalisateur/Eli Roth.jpeg" alt="Photo Eli Roth">
-    <p>Eli Roth est un réalisateur, scénariste, producteur et acteur américain né le 18 avril 1972 à Boston. Passionné de cinéma 
+    
+<section class="film">
+  <h2 class="film__title">Film pour enfants</h2>
+  <img class="film__image" src="/assets/img/Film/filmhorloge.jpeg" alt="Film La Prophétie de l’horloge">
+  <h5 class="film__subtitle">La Prophétie de l’horloge</h5>
+  <a class="film__trailer-link" href="https://www.youtube.com/watch?v=woxCesUcyng">
+      <img class="film__trailer-button" src="/assets/icons/btnBandeAnnonce.svg" alt="Bouton bande annonce">
+  </a>
+</section>
+
+<section class="film-details">
+  <p class="film-details__time">De 23h30 à 1h10</p>
+  <p class="film-details__director">Réalisateur : Eli Roth</p>
+  <p class="film-details__duration">Durée : 1h40 </p>
+  <p class="film-details__age">à partir de 11 ans </p> 
+</section>
+
+<section class="directors">
+  <h3 class="directors__title">Biographie du réalisateur</h3>
+  <img class="directors__image" src="/assets/img/Réalisateur/Eli Roth.jpeg" alt="Photo Eli Roth">
+  <p class="directors__bio">Eli Roth est un réalisateur, scénariste, producteur et acteur américain né le 18 avril 1972 à Boston. Passionné de cinéma 
         d'horreur dès son plus jeune âge, il réalise ses premiers courts-métrages amateurs avec ses frères à l'âge de 11 ans.
         Après des études de cinéma à l'Université de New York, dont il sort diplômé en 1995, Roth co-écrit le scénario de "Cabin Fever". 
         Ne trouvant pas de financement, il enchaîne les petits boulots pendant plusieurs années avant de s'installer à Los Angeles en 19996.
@@ -56,26 +64,34 @@
         dans le genre de l'horreur avec "Hostel" en 2005, produit par Quentin Tarantino.
         Roth alterne ensuite entre réalisation, production et acting. Il joue notamment dans "Inglourious Basterds" de Tarantino en 2009. Parmi 
         ses réalisations notables figurent "The Green Inferno" (2013), "Death Wish" (2018) et plus récemment "Thanksgiving" (2023).</p>
-    <h3>Résumé du film</h3>
-    <p>La Prophétie de l'horloge est un film fantastique qui suit Lewis Barnavelt, un orphelin de 10 ans, envoyé vivre chez son oncle Jonathan 
+</section>
+
+<section class="summary">
+  <h3 class="summary__title">Résumé du film</h3>
+  <p class="summary__text">La Prophétie de l'horloge est un film fantastique qui suit Lewis Barnavelt, un orphelin de 10 ans, envoyé vivre chez son oncle Jonathan 
         après la mort de ses parents.
         Lewis découvre rapidement que son oncle et sa voisine, Florence Zimmerman, sont des magiciens. La maison de Jonathan, une vieille demeure 
         mystérieuse, abrite une horloge cachée dans ses murs. Cette horloge, créée par les anciens propriétaires Isaac et Selena Izard, possède un 
         pouvoir potentiellement apocalyptique.</p>
-    <img src="/assets/img/Film/horloge.png" alt="Image Horloge">
-    <p>Cherchant à s'intégrer dans sa nouvelle école, Lewis utilise accidentellement un sort de nécromancie qui réveille Isaac Izard. Ce dernier, 
+    <img class="summary__image" src="/assets/img/Film/horloge.png" alt="Image Horloge">
+    <p class="summary__text">Cherchant à s'intégrer dans sa nouvelle école, Lewis utilise accidentellement un sort de nécromancie qui réveille Isaac Izard. Ce dernier, 
         avec l'aide de sa femme Selena déguisée en voisine, tente de récupérer l'horloge pour mettre en œuvre leur plan maléfique.
         Lewis, Jonathan et Florence doivent alors unir leurs forces magiques pour empêcher les Izard de déclencher la fin du monde, tout en explorant 
         les secrets de la maison et les mystères de la magie.</p>
+</section>
 
-     <footer>
-            <img src="/assets/icons/logocitrouille1.svg" alt="Logo Festiv'Halloween">
-            <p>Mentions légales</p>
-            <p>Politique de confidentialité</p>
-            <img src="/assets/img/Footer/3ac5e1e36b01036458b8e3537b684411.jpg" alt="Image chaudron de sorcière">
-            <img src="/assets/icons/logo-tiktok.svg" alt="Logo TikTok">
-            <img src="/assets/icons/logo-instagram.svg" alt="Logo Instagram">
-            <img src="/assets/icons/logo-facebook.svg" alt="Logo Facebook">
-    </footer>
+<footer class="footer">
+    <img class="footer__logo" src="/assets/icons/logocitrouille1.svg" alt="Logo Festiv'Halloween">
+    <div class="footer__links">
+        <p>Mentions légales</p>
+        <p>Politique de confidentialité</p>
+    </div>
+    <img class="footer__image" src="/assets/img/Footer/3ac5e1e36b01036458b8e3537b684411.jpg" alt="Image chaudron de sorcière">
+    <div class="footer__social">
+        <img src="/assets/icons/logo-tiktok.svg" alt="Logo TikTok">
+        <img src="/assets/icons/logo-instagram.svg" alt="Logo Instagram">
+        <img src="/assets/icons/logo-facebook.svg" alt="Logo Facebook">
+    </div>
+</footer>
 </body>
 </html>

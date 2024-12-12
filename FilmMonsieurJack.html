@@ -36,19 +36,27 @@
           
           <h1>Festiv'Halloween</h1>
       </header>
-    <h2>Film pour enfants</h2>
-    <img src="/assets/img/Film/filmjack.svg" alt="Film L'étrange noël de Monsieur Jack">
-    <h5>L’étrange Noël de Monsieur Jack </h5>
-    <a href="https://www.youtube.com/watch?v=Oh2CFA88FRY">
-        <img src="/assets/icons/btnBandeAnnonce.svg" alt="Bouton bande annonce">
-    </a>
-    <p>De 16h00 à 17h16 </p>
-    <p>Réalisateur : Henry Selick </p>
-    <p>Durée : 1h16 </p>
-    <p>à partir de 6 - 7 ans </p> 
-    <h3>Biographie du réalisateur</h3>
-    <img src="/assets/img/Réalisateur/Henry Selick.jpeg" alt="Photo Henry Selick">
-    <p>Henry Selick est un réalisateur, scénariste et animateur américain né le 30 novembre 1952 à Glen Ridge, 
+ 
+<section class="film">
+  <h2 class="film__title">Film pour enfants</h2>
+  <img class="film__image" src="/assets/img/Film/filmjack.svg" alt="Film L'étrange noël de Monsieur Jack">
+  <h5 class="film__subtitle">L’étrange Noël de Monsieur Jack</h5>
+  <a class="film__trailer-link" href="https://www.youtube.com/watch?v=Oh2CFA88FRY">
+      <img class="film__trailer-button" src="/assets/icons/btnBandeAnnonce.svg" alt="Bouton bande annonce">
+  </a>
+</section>
+
+<section class="film-details">
+  <p class="film-details__time">De 16h00 à 17h16</p>
+  <p class="film-details__director">Réalisateur : Henry Selick</p>
+  <p class="film-details__duration">Durée : 1h16 </p>
+  <p class="film-details__age">à partir de 6 - 7 ans </p> 
+</section>
+
+<section class="directors">
+  <h3 class="directors__title">Biographie du réalisateur</h3>
+  <img class="directors__image" src="/assets/img/Réalisateur/Henry Selick.jpeg" alt="Photo Henry Selick">
+  <p class="directors__bio">Henry Selick est un réalisateur, scénariste et animateur américain né le 30 novembre 1952 à Glen Ridge, 
         dans le New Jersey. Spécialisé dans l'animation en stop-motion, il est surtout connu pour avoir réalisé 
         des films emblématiques comme L'Étrange Noël de monsieur Jack (1993), produit par Tim Burton, et Coraline 
         (2009), basé sur le roman de Neil Gaiman.
@@ -58,24 +66,33 @@
         Ses œuvres se distinguent par leur esthétique unique et leurs thèmes mêlant fantaisie, mystère et une touche 
         de noirceur, qui ont captivé des générations de spectateurs. Selick reste une figure influente dans le monde 
         de l'animation.</p>
-    <h3>Résumé du film</h3>
-    <p>“L'Étrange Noël de Monsieur Jack” (1993), réalisé par Henry Selick et produit par Tim Burton, raconte l’histoire 
+</section>
+
+<section class="summary">
+  <h3 class="summary__title">Résumé du film</h3>
+  <p class="summary__text">“L'Étrange Noël de Monsieur Jack” (1993), réalisé par Henry Selick et produit par Tim Burton, raconte l’histoire 
         de “Jack Skellington”, le roi des citrouilles et maître de “Halloween Town”, un monde peuplé de créatures macabres. 
         Lassé de la monotonie de sa fête, Jack découvre par hasard “Christmas Town”, une ville où règne l'esprit de Noël. 
         Fasciné par cette ambiance joyeuse et colorée, il décide de prendre la place du Père Noël et d'apporter sa propre 
         version d’un Noël effrayant.</p>
-    <img src="/assets/img/Film/Jack.png" alt="Image Monsieur Jack">
-    <p>Cependant, Jack ne comprend pas la vraie signification de Noël, et son plan tourne au désastre lorsqu'il envoie des 
+    <img class="summary__image" src="/assets/img/Film/Jack.png" alt="Image Monsieur Jack">
+    <p class="summary__text">Cependant, Jack ne comprend pas la vraie signification de Noël, et son plan tourne au désastre lorsqu'il envoie des 
         cadeaux effrayants aux enfants du monde. Finalement, il réalise son erreur et remet les choses en ordre, laissant 
         Noël au Père Noël et revenant à sa véritable vocation, celle de Halloween.</p>
-     <footer>
-            <img src="/assets/icons/logocitrouille1.svg" alt="Logo Festiv'Halloween">
-            <p>Mentions légales</p>
-            <p>Politique de confidentialité</p>
-            <img src="/assets/img/Footer/3ac5e1e36b01036458b8e3537b684411.jpg" alt="Image chaudron de sorcière">
-            <img src="/assets/icons/logo-tiktok.svg" alt="Logo TikTok">
-            <img src="/assets/icons/logo-instagram.svg" alt="Logo Instagram">
-            <img src="/assets/icons/logo-facebook.svg" alt="Logo Facebook">
-    </footer>
+</section>
+
+<footer class="footer">
+    <img class="footer__logo" src="/assets/icons/logocitrouille1.svg" alt="Logo Festiv'Halloween">
+    <div class="footer__links">
+        <p>Mentions légales</p>
+        <p>Politique de confidentialité</p>
+    </div>
+    <img class="footer__image" src="/assets/img/Footer/3ac5e1e36b01036458b8e3537b684411.jpg" alt="Image chaudron de sorcière">
+    <div class="footer__social">
+        <img src="/assets/icons/logo-tiktok.svg" alt="Logo TikTok">
+        <img src="/assets/icons/logo-instagram.svg" alt="Logo Instagram">
+        <img src="/assets/icons/logo-facebook.svg" alt="Logo Facebook">
+    </div>
+</footer>
 </body>
 </html>

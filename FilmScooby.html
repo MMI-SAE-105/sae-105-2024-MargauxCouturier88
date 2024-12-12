@@ -36,19 +36,27 @@
           
           <h1>Festiv'Halloween</h1>
       </header>
-    <h2>Film pour enfants</h2>
-    <img src="/assets/img/Film/filmscooby.jpg" alt="Film Joyeux Halloween Scooby-Doo !">
-    <h5>Joyeux Halloween, Scooby-Doo ! </h5>
-    <a href="https://www.youtube.com/watch?v=XsVdHy52k80">
-        <img src="/assets/icons/btnBandeAnnonce.svg" alt="Bouton bande annonce">
-    </a>
-    <p>De 20h30 à 21h50 </p>
-    <p>Réalisateur : Maxwell Atoms </p>
-    <p>Durée : 1h20 </p>
-    <p>à partir de 9 ans </p> 
-    <h3>Biographie du réalisateur</h3>
-    <img src="/assets/img/Réalisateur/Maxwell_Atoms.webp" alt="Photo Maxwell Atoms">
-    <p>Maxwell Atoms, de son vrai nom Adam Burton, est un réalisateur, scénariste et producteur américain, principalement 
+
+<section class="film">
+  <h2 class="film__title">Film pour enfants</h2>
+  <img class="film__image" src="/assets/img/Film/filmscooby.jpg" alt="Film Joyeux Halloween Scooby-Doo !">
+  <h5 class="film__subtitle">Joyeux Halloween, Scooby-Doo ! </h5>
+  <a class="film__trailer-link" href="https://www.youtube.com/watch?v=XsVdHy52k80">
+      <img class="film__trailer-button" src="/assets/icons/btnBandeAnnonce.svg" alt="Bouton bande annonce">
+  </a>
+</section>
+
+<section class="film-details">
+  <p class="film-details__time">De 20h30 à 21h50</p>
+  <p class="film-details__director">Réalisateur : Maxwell Atoms</p>
+  <p class="film-details__duration">Durée : 1h20 </p>
+  <p class="film-details__age">à partir de 9 ans </p> 
+</section>
+
+<section class="directors">
+  <h3 class="directors__title">Biographie du réalisateur</h3>
+  <img class="directors__image" src="/assets/img/Réalisateur/Maxwell_Atoms.webp" alt="Photo Maxwell Atoms">
+  <p class="directors__bio">Maxwell Atoms, de son vrai nom Adam Burton, est un réalisateur, scénariste et producteur américain, principalement 
         connu pour son travail dans l’animation. Il est né le 21 janvier 1974 à Albuquerque, Nouveau-Mexique. Diplômé du 
         California Institute of the Arts (CalArts), il a rapidement intégré l’industrie de l’animation et travaillé sur des 
         projets emblématiques.
@@ -56,23 +64,31 @@
         et Billy & Mandy), diffusée sur Cartoon Network de 2001 à 2007. La série, mêlant humour noir, situations absurdes et 
         éléments surnaturels, est devenue un classique pour les amateurs d’animation des années 2000. Il a également contribué 
         à des séries animées comme "Evil Con Carne" et collaboré à des projets pour Disney et d'autres grands studios.</p>
-    <h3>Résumé du film</h3>
-    <p>Dans ce film d'animation, la bande de Mystery Incorporated se prépare à célébrer Halloween à Crystal Cove. Cependant, 
+</section>
+
+<section class="summary">
+  <h3 class="summary__title">Résumé du film</h3>
+    <img class="summary__image" src="/assets/img/Film/scooby.png" alt="Image Scooby-Doo">
+    <p class="summary__text">Dans ce film d'animation, la bande de Mystery Incorporated se prépare à célébrer Halloween à Crystal Cove. Cependant, 
         leur fête est perturbée par le Dr Jonathan Crane, alias Scarecrow, qui s'échappe de l'asile et libère un gaz hallucinogène. 
         En plus de cela, des citrouilles maléfiques appelées "Jackal Lanterns" commencent à attaquer les habitants.
         Scooby et ses amis doivent résoudre ce mystère pour sauver la ville tout en préservant l'esprit d'Halloween. Le film mélange 
         humour, frissons légers et références à la culture pop, offrant une aventure amusante et festive pour les jeunes 
         spectateurs.</p>
-    <img src="/assets/img/Film/scooby.png" alt="Image Scooby-Doo">
+</section>
 
-     <footer>
-            <img src="/assets/icons/logocitrouille1.svg" alt="Logo Festiv'Halloween">
-            <p>Mentions légales</p>
-            <p>Politique de confidentialité</p>
-            <img src="/assets/img/Footer/3ac5e1e36b01036458b8e3537b684411.jpg" alt="Image chaudron de sorcière">
-            <img src="/assets/icons/logo-tiktok.svg" alt="Logo TikTok">
-            <img src="/assets/icons/logo-instagram.svg" alt="Logo Instagram">
-            <img src="/assets/icons/logo-facebook.svg" alt="Logo Facebook">
-    </footer>
+<footer class="footer">
+    <img class="footer__logo" src="/assets/icons/logocitrouille1.svg" alt="Logo Festiv'Halloween">
+    <div class="footer__links">
+        <p>Mentions légales</p>
+        <p>Politique de confidentialité</p>
+    </div>
+    <img class="footer__image" src="/assets/img/Footer/3ac5e1e36b01036458b8e3537b684411.jpg" alt="Image chaudron de sorcière">
+    <div class="footer__social">
+        <img src="/assets/icons/logo-tiktok.svg" alt="Logo TikTok">
+        <img src="/assets/icons/logo-instagram.svg" alt="Logo Instagram">
+        <img src="/assets/icons/logo-facebook.svg" alt="Logo Facebook">
+    </div>
+</footer>
 </body>
 </html>
