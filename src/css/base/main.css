@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4DEC5;
+    color: #F4DEC5;
+  }
+  
+  .event-overview {
+  text-align: center;
+  padding: 20px;
+  background-color: #F4DEC5;
+  margin: 20px 0;
+}
+
+.event-overview__image {
+    margin: 0;
+    padding: 0;
+    display: block;
+  width: 390px;
+  height: auto;
+  align-items: center;
+}
+
+.event-overview__title,
+.event-overview__subtitle {
+  font-size: 28px;
+  color: #000000;
+  margin: 10px 0;
+  font-family: Creepster;
+}
+
+.event-overview__description {
+  font-size: 16px;
+  color: #1D1513;
+  margin: 10px 0;
+}
+
+.ticket-info {
+  text-align: center;
+  padding: 20px;
+  background-color: #F4DEC5;
+  margin: 20px 0;
+  font-family: Alexandria;
+  color: #000000;
+}
+
+.ticket-info__title,
+.ticket-info__adult-program-title,
+.ticket-info__kids-program-title {
+  font-size: 24px;
+  color: #ff6600;
+  margin: 10px 0;
+}
+
+.ticket-info__link,
+.ticket-info__adult-program-link,
+.ticket-info__kids-program-link {
+  display: inline-block;
+  margin: 10px 0;
+}
+
+.ticket-info__icon,
+.ticket-info__adult-program-icon,
+.ticket-info__kids-program-icon {
+  height: 50px;
+}
+
+.ticket-info__description,
+.ticket-info__adult-program-description {
+  font-size: 16px;
+  color: #666;
+  margin: 10px 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .event-preview,
+  .partners,
+  .guests {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px 0;
+  }
+  
+  .event-preview__title,
+  .partners__title,
+  .guests__title {
+    font-size: 24px;
+    color: #ff6600;
+    margin: 10px 0;
+  }
+  
+  .event-preview__description {
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .partners__list,
+  .guests__list {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .partners__item,
+  .guests__item {
+    font-size: 18px;
+    color: #333;
+    margin: 5px 0;
+  }
+
+  .films__image {
+    width: 250px; 
+    height: 350px; 
+    object-fit: cover;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .films {
+    background-color:#F4DEC5;
+  }

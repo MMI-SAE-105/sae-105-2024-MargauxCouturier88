@@ -1,0 +1,84 @@
+.programme {
+   background-color: #F4DEC5; 
+   margin: 20px;
+    font-family: source serif pro;
+    size: 32px;
+    
+}
+ .programme-introduction{
+    margin: 20px;
+    font-family: mulish;
+    size: 22px;
+}
+ .programme-description{
+    margin: 20px;
+    font-family: STIX Two Text;
+    size: 18px;
+ }
+   .programme-image{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+   }
+ .programme-texte{
+    margin: 20px;
+    font-family: STIX Two Text;
+    size: 18px;
+ }
+   .programme-defi{
+    font-family: creepster;
+    size: 32px;
+    justify-content: center;
+   }
+
+
+.selection__titre{
+    font-family: mulish;
+    size: 22px;
+    margin: 20px;
+}
+ .selection__date{
+    font-family: mulish;
+    size: 13px;
+    margin: 20px;
+ }
+.selection-films {
+    background-color: #F4DEC5;
+}
+.selection__lien {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.selection__image {
+    width: 250px; 
+    height: 350px; 
+    object-fit: cover;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.selection__nom{
+    font-family: mulish;
+    size: 13px;
+    margin: 20px;
+}
+.selection__debut{
+    font-family: mulish;
+    size: 13px;
+    margin: 20px;
+}
+.selection__duree{
+    font-family: mulish;
+    size: 13px;
+    margin: 20px;
+}
+.selection__age {
+    font-family: mulish;
+    size: 13px;
+    margin: 20px;
+}
