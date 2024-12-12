@@ -1,0 +1,96 @@
+.film {
+    background-color: #F4DEC5;
+}
+.film__title {
+    font-family: source serif pro;
+    size: 32px;
+    margin: 20px;
+}
+.film__image {
+    width: 250px; 
+    height: 350px; 
+    object-fit: cover;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.film__subtitle {
+    font-family: mulish;
+    size: 22px;
+    font-style: bold;
+    margin: 20px;
+}
+.film__trailer-button{
+    margin: 20px;
+    right: 0;
+}
+.film-details {
+    background-color: #F4DEC5;
+}
+
+.film-details__time {
+    font-family: alexandria;
+    size: 24px;
+    color: #F17007;
+    margin: 20px;
+}
+.film-details__director {
+    font-family: mulish;
+    size: 13px;
+    margin: 20px;
+}
+.film-details__duration {
+    font-family: mulish;
+    size: 13px;
+    margin: 20px;
+}
+.film-details__age {
+    font-family: mulish;
+    size: 13px;
+    color: #F17007;
+    font-style: bold;
+    margin: 20px;
+}
+
+.directors {
+    background-color: #F4DEC5;
+}
+.directors__title {
+    font-family: alexandria;
+    size: 24px;
+    margin: 20px;
+}
+.directors__image {
+    width: 250px; 
+    height: 350px; 
+    object-fit: cover;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.directors__bio {
+    font-family: STIX Two Text;
+    size: 18px;
+    margin: 20px;
+}
+.summary {
+    background-color: #F4DEC5;
+}
+.summary__title {
+    font-family: alexandria;
+    size: 24px;
+    margin: 20px;
+}
+.summary__image {
+    width: 250px; 
+    height: 350px; 
+    object-fit: cover;
+    margin: 20px;
+    display: flex;
+    justify-content: right;
+}
+.summary__text {
+    font-family: STIX Two Text;
+    size: 18px;
+    margin: 20px;
+}
