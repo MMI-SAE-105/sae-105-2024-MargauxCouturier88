@@ -1,15 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 
 /* Vendors */
 
-@import url(/src/css/vendors/normalize.css);
+@import "/src/css/vendors/normalize.css";
 /* Utils */
 
 /* Base */
 
 /* Layout */
 
-@import url(/src/css/layout/footer.css);
-@import url(/src/css/layout/header.css);
+@import "/src/css/layout/footer.css";
+@import "/src/css/layout/header.css";
 
 /* Components */
