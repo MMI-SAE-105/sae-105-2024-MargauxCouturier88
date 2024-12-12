@@ -1,10 +1,13 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const menuToggle = document.querySelector('.menu-toggle');
-    const nav = document.querySelector('.header__nav');
-  
-    menuToggle.addEventListener('click', function() {
-      const expanded = menuToggle.getAttribute('aria-expanded') === 'true' || false;
-      menuToggle.setAttribute('aria-expanded', !expanded);
-      nav.setAttribute('aria-expanded', !expanded);
+const toggle = document.querySelector(".menu-btn");
+const nav = document.querySelector(".menu");
+const page = document.body;
+
+if (toggle && nav) {
+    toggle.addEventListener("click", () => {
+        const isOpen = toggle.ariaExpanded === "true";
+        const isClosed = !isOpen;
+        toggle.ariaExpanded = isClosed;
+        nav.ariaHidden = isOpen;
+        page.classList.toggle("noscroll", isClosed);
     });
-  });
+}
