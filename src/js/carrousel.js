@@ -1,13 +1,27 @@
-const wrapper = document.querySelector('.carousel__wrapper');
+const carousel = document.querySelector('.carousel');
 const prevBtn = document.querySelector('.carousel__btn--prev');
 const nextBtn = document.querySelector('.carousel__btn--next');
-let offset = 0;
 
-// Gère le clic sur "suivant"
+let currentIndex = 0;
+const items = document.querySelectorAll('.carousel__item_enfant');
+const totalItems = items.length;
+
+items.forEach((item, index) => {
+    item.style.transform = `translateX(${index * 100}%)`;
+});
+
+function updateCarousel(index) {
+    items.forEach((item, i) => {
+        item.style.transform = `translateX(${(i - index) * 100}%)`;
+    });
+}
+
+prevBtn.addEventListener('click', () => {
+    currentIndex = (currentIndex === 0) ? totalItems - 1 : currentIndex - 1;
+    updateCarousel(currentIndex);
+});
+
 nextBtn.addEventListener('click', () => {
-    const itemWidth = document.querySelector('.carousel__item').offsetWidth + 20; // Taille de l'élément + gap
-    if (Math.abs(offset) < wrapper.scrollWidth - wrapper.offsetWidth) {
-        offset -= itemWidth;
-        wrapper.style.transform = `translateX(${offset}px)`;
-    }
+    currentIndex = (currentIndex === totalItems - 1) ? 0 : currentIndex + 1;
+    updateCarousel(currentIndex);
 });
