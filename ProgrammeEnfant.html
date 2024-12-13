@@ -5,18 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programme pour enfants</title>
     <link rel="stylesheet" href="/src/css/style.css"/>
-    <link rel="stylesheet" href="/src/css/layout/footer.css"/>
-    <link rel="stylesheet" href="/src/css/components/menu.css"/>
-    <link rel="stylesheet" href="/src/css/base/main.css"/>
-    <link rel="stylesheet" href="/src/css/base/programme.css">
+    <script type="module" src="/src/js/menu.js"></script>
+
 </head>
+
 <body>
   <header class="header">
     <a class="header__logo" href="index.html">
         <img src="/assets/icons/logocitrouille1.svg" alt="Logo Festiv'Halloween">
     </a>
-    <img class="header__menu-btn" src="/assets/icons/menu.svg" alt="menu-btn">
-    <nav class="header__nav" id="mainNav" aria-hidden="true">
+    <button class="header__menu-btn"><img src="/assets/icons/menu.svg" alt="menu-btn"></button>
+    <nav class="header__nav menu" id="mainNav" aria-hidden="true">
         <ul class="header__menu-list">
             <li class="header__menu-item">
                 <a class="header__menu-link" href="billetterie.html">Billetterie</a>

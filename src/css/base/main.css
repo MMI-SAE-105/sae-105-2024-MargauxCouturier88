@@ -5,6 +5,12 @@ body {
     background-color: #F4DEC5;
     color: #F4DEC5;
   }
+
+  button {
+    appearance: none;
+    background: transparent;
+    border: none;
+  }
   
   .event-overview {
   text-align: center;
@@ -104,23 +110,34 @@ body {
     margin: 10px 0;
   }
   
-  .partners__list,
-  .guests__list {
-    width: 200px; 
-    height: 200px; 
-    object-fit: cover;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .partners__item,
-  .guests__item {
-    font-size: 18px;
-    color: #333;
-    margin: 5px 0;
-  }
+  .partners {
+    padding: 20px;
+    background-color: #F4DEC5;
+    text-align: center;
+}
 
+.partners__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.partners__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.partners__image {
+    max-width: 150px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.partners__image:hover {
+    transform: scale(1.1);
+}
   .films__image {
     width: 250px; 
     height: 350px; 
@@ -133,3 +150,69 @@ body {
   .films {
     background-color:#F4DEC5;
   }
+
+  .films__title {
+    margin: 20px;
+  }
+
+  .films__description {
+    margin: 20px;
+  }
+
+  .section-invites {
+    background: #F4DEC5;
+  }
+
+  .section-invites__invite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.section-invites__image {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.section-invites__name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.section-invites__description {
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.section-invites__list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.section-invites__list-item {
+    font-size: 14px;
+    color: #333;
+}
+
+.section-invites__link {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.section-invites__button {
+    width: 150px;
+    height: auto;
+}

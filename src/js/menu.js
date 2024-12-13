@@ -1,5 +1,5 @@
 
-const toggle = document.querySelector(".menu-btn");
+const toggle = document.querySelector(".header__menu-btn");
 const nav = document.querySelector(".menu");
 const page = document.body;
 
