@@ -26,6 +26,8 @@ body {
   width: 390px;
   height: auto;
   align-items: center;
+  right: 0;
+  left: 0;
 }
 
 .event-overview__title,

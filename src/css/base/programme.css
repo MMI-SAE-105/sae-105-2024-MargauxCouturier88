@@ -49,6 +49,7 @@
     background-color: #F4DEC5;
     padding: 20px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -61,6 +62,7 @@
     overflow: hidden;
     max-width: 350px;
     text-align: center;
+    align-items: center;
 }
 
 .selection__image {
@@ -86,4 +88,20 @@
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 15px;
+}
+
+.selection__card { 
+   margin: auto;
+   width: 50%;
+   display: flex;
+    gap: 15px; /* Espacement entre les cartes */
+    transition: transform 0.5s ease-in-out; /* Transition fluide pour les défilements */
+    will-change: transform;
+    align-items: self-start;
+    
+}
+.filmsgallery {
+    overflow: hidden; /* Masque les éléments en dehors du conteneur */
+    width: 100%; /* Ajuste à la taille souhaitée */
+    position: relative;
 }

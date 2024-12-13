@@ -1,0 +1,51 @@
+.carousel {
+    position: relative;
+    width: 80%;
+    margin: 50px auto;
+    overflow: hidden; /* Cache les cartes en dehors de la vue */
+    border: none;
+    border-radius: 10px;
+    display: flex;
+}
+
+.carousel__wrapper {
+    display: flex;
+    transition: transform 0.5s ease; /* Animation de défilement */
+    gap: 20px;
+}
+
+.carousel__item {
+    min-width: 300px; /* Largeur minimale d'une carte */
+    height: auto;
+    background-color: #3D415D;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel__btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.carousel__btn--prev {
+    left: 10px;
+}
+
+.carousel__btn--next {
+    right: 10px;
+}
