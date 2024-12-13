@@ -10,45 +10,45 @@
 </head>
 
 <body>
-    <header class="header">
-        <a class="header__logo" href="index.html">
-            <img src="/assets/icons/logocitrouille1.svg" alt="Logo Festiv'Halloween">
-          <button class="header__menu-btn">
-              <img src="/assets/icons/menu.svg" alt="menu-btn">
-          </button>
-          
-        <nav class="header__nav menu" id="mainNav" aria-hidden="true">
-          <button class="menu__close-btn" onclick="goBack()">
-              <img src="/assets/img/Menu/btn-close.svg" alt="menu-btn">
-          </button>
-          <script>
-            function goBack() {
-                window.history.back();
-            }
-          </script>
-            <ul class="header__menu-list">
-                <li class="header__menu-item">
-                    <a class="header__menu-link" href="billetterie.html">Billetterie</a>
-                </li>
-                <li class="header__menu-item">
-                    <a class="header__menu-link" href="ProgrammeAdulte.html">Programmation pour adultes</a>
-                </li>
-                <li class="header__menu-item">
-                    <a class="header__menu-link" href="ProgrammeEnfant.html">Programmation pour enfants</a>
-                </li>
-                <li class="header__menu-item">
-                    <a class="header__menu-link" href="Restauration.html">Restauration</a>
-                </li>
-                <li class="header__menu-item">
-                    <a class="header__menu-link" href="Apropos.html">À propos</a>
-                </li>
-                <li class="header__menu-item">
-                    <a class="header__menu-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        <h1 class="header__title">Festiv'Halloween</h1>
-    </header>
+  <header class="header">
+    <a class="header__logo" href="index.html">
+        <img src="/assets/icons/logocitrouille1.svg" alt="Logo Festiv'Halloween">
+      <button class="header__menu-btn">
+          <img src="/assets/icons/menu.svg" alt="menu-btn">
+      </button>
+      
+    <nav class="header__nav menu" id="mainNav" aria-hidden="true">
+      <button class="menu__close-btn" onclick="goBack()">
+          <img src="/assets/img/Menu/btn-close.svg" alt="menu-btn">
+      </button>
+      <script>
+        function goBack() {
+            window.history.back();
+        }
+      </script>
+        <ul class="header__menu-list">
+            <li class="header__menu-item">
+                <a class="header__menu-link" href="billetterie.html">Billetterie</a>
+            </li>
+            <li class="header__menu-item">
+                <a class="header__menu-link" href="ProgrammeAdulte.html">Programmation pour adultes</a>
+            </li>
+            <li class="header__menu-item">
+                <a class="header__menu-link" href="ProgrammeEnfant.html">Programmation pour enfants</a>
+            </li>
+            <li class="header__menu-item">
+                <a class="header__menu-link" href="Restauration.html">Restauration</a>
+            </li>
+            <li class="header__menu-item">
+                <a class="header__menu-link" href="Apropos.html">À propos</a>
+            </li>
+            <li class="header__menu-item">
+                <a class="header__menu-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <h1 class="header__title">Festiv'Halloween</h1>
+</header>
 <section class="programme">
   <h2 class="programme">Programme pour adultes</h2>
   <h5 class="programme-introduction">Bienvenue dans l’univers du frisson et de la terreur avec notre programmation spéciale dédiée aux films d’horreur pour adultes.</h5>
@@ -64,49 +64,59 @@
 <section class="selection-films">
   <h4 class="selection__titre">Notre sélection</h4>
   <p class="selection__date">29 octobre  à partir de 18h00 jusqu’au 30 octobre à 5h30</p>
-
+<div class="selection__card">
   <a class="selection__lien" href="FilmShinning.html">
       <img class="selection__image" src="/assets/img/Film/filmshinning.jpg" alt="Film Shinning">
   </a>
   <p class="selection__nom">Shinning, de Stanley Kubrick</p>
   <p class="selection__debut">Début : 18h00</p>
   <p class="selection__duree">Durée : 2h26</p>
+</div>
 
+<div class="selection__card">
   <a class="selection__lien" href="Filmanimaltronix.html">
       <img class="selection__image" src="/assets/img/Film/filmanimaltronix.webp" alt="Film Five Nights at Freddy's">
   </a>
   <p class="selection__nom">Five Nights at Freddy's, de Emma Tammi</p>
   <p class="selection__debut">Début : 20h30</p>
   <p class="selection__duree">Durée : 1h50</p>
+</div>
 
+<div class="selection__card">
   <a class="selection__lien" href="FilmFreddy.html">
       <img class="selection__image" src="/assets/img/Film/filmfreddy.webp" alt="Film Les Griffes de la nuit">
   </a>
   <p class="selection__nom">Les Griffes de la nuit, de Wes Craven</p>
   <p class="selection__debut">Début : 22h25</p>
   <p class="selection__duree">Durée : 1h30</p>
+</div>
 
+<div class="selection__card">
 <a class="selection__lien" href="FilmConjuring.html">
       <img class="selection__image" src="/assets/img/Film/Filmconjuring.svg" alt="Film Conjuring, les dossiers Warren">
   </a>
   <p class="selection__nom">Conjuring, les dossiers Warren, de James Wan</p>
   <p class="selection__debut">Début : 00h00</p>
   <p class="selection__duree">Durée : 1h52</p>
+</div>
 
+<div class="selection__card">
   <a class="selection__lien" href="FilmPalaisdurire.html">
       <img class="selection-films__image" src="/assets/img/Film/filmpalaisdurire.jpg" alt="Film Massacre au palais du rire">
   </a>
   <p class="selection__nom">Massacre au palais du rire, de Andy Palmer</p>
   <p class="selection__debut">Début : 1h55</p>
   <p class="selection__duree">Durée : 1h30</p>
+</div> 
 
+<div class="selection__card">
   <a class="selection__lien" href="FilmCa.html">
       <img class="selection__image" src="/assets/img/Film/filmça.webp" alt="Film Ça">
   </a>
   <p class="selection__nom">Ça, de Andy Muschietti</p>
   <p class="selection__debut">Début : 3h30</p>
   <p class="selection__duree">Durée : 2h12</p>
-
+</div>
 </section>
 
 <footer class="footer">
