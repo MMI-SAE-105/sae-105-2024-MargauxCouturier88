@@ -156,6 +156,8 @@ body {
 
   .films__title {
     margin: 20px;
+    text-transform: uppercase;
+    size: 25px;
   }
 
   .films__description {

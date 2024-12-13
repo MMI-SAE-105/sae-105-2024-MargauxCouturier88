@@ -6,8 +6,9 @@
 
 <title>Festiv'Holloween</title>
 <link rel="stylesheet" href="/src/css/style.css"/>
-
+<link rel="icon" href="/assets/icons/logocitrouille1.svg" type="image/svg+xml">
 <script type="module" src="/src/js/menu.js"></script>
+<script type="module" src="/src/js/lightbox.js"></script>
 
 </head>
 
@@ -87,24 +88,38 @@
         <p class="ticket-info__description">Découvrez notre sélection spéciale de films d'Halloween pour enfants ! Plongez dans l'univers magique et amusant de cette fête, avec des films adaptés aux plus jeunes. Cliquez sur la chauve-souris pour explorer la programmation et partager un moment cinéma en famille !</p>
     </section>
 
-<section class="films">
+    <section class="films">
         <h4 class="films__title">Aperçu des films pour enfants</h4>
-        <div class="films__list films__list--children">
+        <div class="films__list">
             <img class="films__image" src="/assets/img/Film/filmscooby.jpg" alt="Film Joyeux Halloween Scooby-Doo !">
+            <dialog id="lightbox"><img src="/assets/img/Film/filmscooby.jpg" alt="Film Joyeux Halloween Scooby-Doo !" /></dialog>
             <p class="films__description">Joyeux Halloween, Scooby-Doo ! de Maxwell Atoms</p>
+        </div>
+        <div class="films__list">
             <img class="films__image" src="/assets/img/Film/filmjack.svg" alt="Film L’étrange Noël de Monsieur Jack">
+            <dialog id="lightbox"><img src="/assets/img/Film/filmjack.svg" alt="Film L’étrange Noël de Monsieur Jack" /></dialog>
             <p class="films__description">L’étrange Noël de Monsieur Jack, de Henry Selick</p>
+        </div>
+        <div class="films__list">
             <img class="films__image" src="/assets/img/Film/filmhocuspocus.jpeg" alt="Film Hocus Pocus">
             <p class="films__description">Hocus Pocus, de Kenny Ortega</p>
+            <dialog id="lightbox"><img src="/assets/img/Film/filmhocuspocus.jpeg" alt="Film Hocus Pocus" /></dialog>
         </div>
 
         <h4 class="films__title">Aperçu des films pour adultes</h4>
-        <div class="films__list films__list--adults">
+        <div class="films__list">
             <img class="films__image" src="/assets/img/Film/filmça.webp" alt="Film Ça">
+            <dialog id="lightbox"><img src="/assets/img/Film/filmça.webp" alt="Film Ça" /></dialog>
             <p class="films__description">Ça, de Andy Muschietti</p>
+        </div>
+        <div class="films__list">
             <img class="films__image" src="/assets/img/Film/filmanimaltronix.webp" alt="Five Nights at Freddy's">
+            <dialog id="lightbox"><img src="/assets/img/Film/filmanimaltronix.webp" alt="Five Nights at Freddy's" /></dialog>
             <p class="films__description">Five Nights at Freddy's, de Emma Tammi</p>
+        </div>  
+        <div class="films__list">
             <img class="films__image" src="/assets/img/Film/filmshinning.jpg" alt="Shinning">
+            <dialog id="lightbox"><img src="/assets/img/Film/filmshinning.jpg" alt="Shinning" /></dialog>
             <p class="films__description">Shinning, de Stanley Kubrick</p>
         </div>
     </section>
