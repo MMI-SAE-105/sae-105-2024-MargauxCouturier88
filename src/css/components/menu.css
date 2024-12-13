@@ -1,45 +1,86 @@
 .header__nav {
-    position: relative;
-  }
-  
-  .header__menu-list {
-    display: none; 
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    background-color: #333;
-  }
-  
-  .header__menu-item {
-    margin: 0;
-  }
-  
-  .header__menu-link {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
-    display: block;
-  }
-  
-  .menu-toggle {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  
-  .header__nav[aria-expanded="true"] .header__menu-list {
-    display: block;
-  }
+  visibility: hidden;
+  display: flex;
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  background: #F17007;
+  color: var(--black);
+  flex-direction: column;
+  justify-content: space-between;
+  padding: var(--space5x) var(--space3x) var(--space3x);
+  transform: translateX(100vw);
+  transition: all 0.3s ease-in-out;
+}
 
-  .header__menu-btn {
-    height: 30px;
-    cursor: pointer;
-    position: absolute;
-    right: 0;
-    top: 15;
-    margin :15px;
+.header__nav[aria-hidden="false"] {
+  transform: translateX(0);
+  visibility: visible;
+}
 
-  }
- 
+.header__menu-link {
+  color: var(--black);
+  text-decoration: none;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  padding: 10px 0;
+}
+
+.header__menu-item {
+  margin-bottom: 37px;
+  padding-bottom: var(--space1x);
+  border-bottom: 1px solid var(--black);
+}
+
+.menu-btn {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-btnbar,
+.menu-btnbar::before,
+.menu-btnbar::after {
+  content: "";
+  background: white;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  border-radius: 2px;
+  left: 0;
+  z-index: 10;
+  transition: all 0.4s ease-in-out;
+}
+
+.menu-btnbar::before {
+  top: -10px;
+}
+
+.menu-btnbar::after {
+  top: 10px;
+}
+
+.menu-btn[aria-expanded="true"] .menu-btnbar,
+.menu-btn[aria-expanded="true"] .menu-btnbar::before,
+.menu-btn[aria-expanded="true"] .menu-btnbar::after {
+  transform: rotate(135deg);
+  background: white;
+}
+
+.menu-btn[aria-expanded="true"] .menu-btnbar::before,
+.menu-btn[aria-expanded="true"] .menu-btnbar::after {
+  transform: rotate(90deg);
+  top: 0;
+}
+
+.list-unstyled {
+  margin-top: 223px;
+  list-style-type: none;
+  padding-left: 35px;
+}

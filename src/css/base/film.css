@@ -89,6 +89,12 @@
     display: flex;
     justify-content: right;
 }
+.summary__image-jack {
+    display: flex;
+    position: absolute;
+;
+}
+
 .summary__text {
     font-family: STIX Two Text;
     size: 18px;
