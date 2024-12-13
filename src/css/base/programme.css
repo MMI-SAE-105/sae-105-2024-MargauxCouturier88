@@ -58,12 +58,11 @@
 }
 
 .selection__image {
-    width: 250px; 
-    height: 350px; 
-    object-fit: cover;
-    margin: 20px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 45%;
 }
 .selection__nom{
     font-family: mulish;
