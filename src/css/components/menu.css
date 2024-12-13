@@ -27,60 +27,48 @@
   line-height: normal;
   letter-spacing: 1.2px;
   padding: 10px 0;
+  
 }
 
 .header__menu-item {
   margin-bottom: 37px;
   padding-bottom: var(--space1x);
   border-bottom: 1px solid var(--black);
+  
+}
+
+.header__menu-button {
+  position: absolute;
+  top: 20px; /* Ajustez cette valeur selon vos besoins */
+  right: 20px; /* Ajustez cette valeur selon vos besoins */
+  padding: 5px;
+  z-index: 1000; /* Assurez-vous que le bouton est au-dessus des autres éléments */
 }
 
 .menu-btn {
-  position: relative;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.menu-btnbar,
-.menu-btnbar::before,
-.menu-btnbar::after {
-  content: "";
-  background: white;
-  height: 2px;
-  width: 100%;
   position: absolute;
-  border-radius: 2px;
-  left: 0;
-  z-index: 10;
-  transition: all 0.4s ease-in-out;
+  top: 20px; /* Ajustez cette valeur selon vos besoins */
+  right: 20px; /* Ajustez cette valeur selon vos besoins */
+  padding: 5px;
+  z-index: 1000; /* Assurez-vous que le bouton est au-dessus des autres éléments */
 }
 
-.menu-btnbar::before {
-  top: -10px;
-}
-
-.menu-btnbar::after {
-  top: 10px;
-}
-
-.menu-btn[aria-expanded="true"] .menu-btnbar,
-.menu-btn[aria-expanded="true"] .menu-btnbar::before,
-.menu-btn[aria-expanded="true"] .menu-btnbar::after {
-  transform: rotate(135deg);
-  background: white;
-}
-
-.menu-btn[aria-expanded="true"] .menu-btnbar::before,
-.menu-btn[aria-expanded="true"] .menu-btnbar::after {
-  transform: rotate(90deg);
-  top: 0;
-}
 
 .list-unstyled {
   margin-top: 223px;
   list-style-type: none;
   padding-left: 35px;
 }
+
+.header__menu-list {
+  margin-top: 223px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  gap: 10px; }
+
+  .menu__close-btn {
+    position:  absolute;
+    right: 0;
+    padding: 20px;
+  }

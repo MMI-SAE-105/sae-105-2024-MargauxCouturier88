@@ -10,35 +10,45 @@
 </head>
 
 <body>
-  <header class="header">
-    <a class="header__logo" href="index.html">
-        <img src="/assets/icons/logocitrouille1.svg" alt="Logo Festiv'Halloween">
-    </a>
-    <button class="header__menu-btn"><img src="/assets/icons/menu.svg" alt="menu-btn"></button>
-    <nav class="header__nav menu" id="mainNav" aria-hidden="true">
-        <ul class="header__menu-list">
-            <li class="header__menu-item">
-                <a class="header__menu-link" href="billetterie.html">Billetterie</a>
-            </li>
-            <li class="header__menu-item">
-                <a class="header__menu-link" href="ProgrammeAdulte.html">Programmation pour adultes</a>
-            </li>
-            <li class="header__menu-item">
-                <a class="header__menu-link" href="ProgrammeEnfant.html">Programmation pour enfants</a>
-            </li>
-            <li class="header__menu-item">
-                <a class="header__menu-link" href="Restauration.html">Restauration</a>
-            </li>
-            <li class="header__menu-item">
-                <a class="header__menu-link" href="Apropos.html">À propos</a>
-            </li>
-            <li class="header__menu-item">
-                <a class="header__menu-link" href="contact.html">Contact</a>
-            </li>
-        </ul>
-    </nav>
-    <h1 class="header__title">Festiv'Halloween</h1>
-</header>
+    <header class="header">
+        <a class="header__logo" href="index.html">
+            <img src="/assets/icons/logocitrouille1.svg" alt="Logo Festiv'Halloween">
+          <button class="header__menu-btn">
+              <img src="/assets/icons/menu.svg" alt="menu-btn">
+          </button>
+          
+        <nav class="header__nav menu" id="mainNav" aria-hidden="true">
+          <button class="menu__close-btn" onclick="goBack()">
+              <img src="/assets/img/Menu/btn-close.svg" alt="menu-btn">
+          </button>
+          <script>
+            function goBack() {
+                window.history.back();
+            }
+          </script>
+            <ul class="header__menu-list">
+                <li class="header__menu-item">
+                    <a class="header__menu-link" href="billetterie.html">Billetterie</a>
+                </li>
+                <li class="header__menu-item">
+                    <a class="header__menu-link" href="ProgrammeAdulte.html">Programmation pour adultes</a>
+                </li>
+                <li class="header__menu-item">
+                    <a class="header__menu-link" href="ProgrammeEnfant.html">Programmation pour enfants</a>
+                </li>
+                <li class="header__menu-item">
+                    <a class="header__menu-link" href="Restauration.html">Restauration</a>
+                </li>
+                <li class="header__menu-item">
+                    <a class="header__menu-link" href="Apropos.html">À propos</a>
+                </li>
+                <li class="header__menu-item">
+                    <a class="header__menu-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <h1 class="header__title">Festiv'Halloween</h1>
+    </header>
 <section class="about-section">
         <img class="about-section__image" src="/assets/img/Restauration/colisee.jpg" alt="Photo du cinéma Le Colisée">
         <h2 class="about-section__title">À Propos</h2>
